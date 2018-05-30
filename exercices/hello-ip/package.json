@@ -1,0 +1,14 @@
+{
+  "name": "hello-ip",
+  "version": "1.0.0",
+  "description": "Hello world + ip",
+  "author": "InfraTeam Hackages",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "ip": "^1.1.5"
+  }
+}

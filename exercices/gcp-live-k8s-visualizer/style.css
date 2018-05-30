@@ -1,0 +1,82 @@
+.wide {
+  width: 150px;
+}
+
+i.refresh {
+    float:right;
+    margin-right:20px;
+    color:white;
+}
+.service {
+  background-color: rgb(0,153,57);
+  color: white;
+}
+
+.controller {
+  background-color:rgb(51,105,232);
+  color: white;
+}
+
+.pod {
+  width: 100px;
+  background-color:#eeeeef;
+}
+
+.pending {
+  background-color:yellow;
+}
+
+.window {
+  line-height: 1em;
+  display: table;
+}
+
+.window span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.logo {
+  background: url('titlelogo.svg');
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 600px;
+}
+
+.navbar-logo {
+  margin-left: 10px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+#nav-logo-img {
+  height: 42px;
+}
+
+.navbar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: #447AE8;
+  border: 0px;
+  border-radius: 0;
+}
+
+.nodesbar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    height: 200px;
+    background-color: light-grey;
+    border-bottom: thick solid black;
+}
+
+.not_ready {
+  background-color: red;
+}
+
+.terminating {
+  background-color: red;
+}
