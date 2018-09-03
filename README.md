@@ -1,33 +1,26 @@
 # Hackjam Kubernetes
 
-## Minikube installation : 
+## Minikube installation :
+
 ### macOS
 
-As minikube will need to create a VM, you'll need to download Hyperkit or xHyve 
-and then you'll be able to install minikube itself.
+Run the following command to install the required depencencies:
 
-Hyperkit driver:
-https://github.com/kubernetes/minikube/blob/master/docs/drivers.md#hyperkit-driver
-
-xhyve driver : 
-https://github.com/kubernetes/minikube/blob/master/docs/drivers.md#xhyve-driver
-
-Minikube : 
-https://github.com/kubernetes/minikube#macos
-kubectl : 
-https://kubernetes.io/docs/tasks/tools/install-kubectl/#kubectl-install-curl-0
+```Bash
+./osx.sh
+```
 
 ### Linux
 
-As minikube will need to create a VM, you'll need to download KVM 
+As minikube will need to create a VM, you'll need to download KVM
 and then you'll be able to install minikube itself.
 
-KVM : 
+KVM :
 https://github.com/kubernetes/minikube/blob/master/docs/drivers.md#kvm-driver
 
-Minikube : 
+Minikube :
 https://github.com/kubernetes/minikube#linux
-kubectl : 
+kubectl :
 https://kubernetes.io/docs/tasks/tools/install-kubectl/#kubectl-install-curl-1
 
 ### Windows
@@ -38,13 +31,12 @@ and then you'll be able to install minikube itself.
 hyperV:
 https://github.com/kubernetes/minikube/blob/master/docs/drivers.md#hyperV-driver
 
-Minikube : 
+Minikube :
 https://github.com/kubernetes/minikube#windows
-kubectl : 
+kubectl :
 https://kubernetes.io/docs/tasks/tools/install-kubectl/#kubectl-install-curl-2
 
+### Docker
 
-### Docker 
-
-This should help you! : 
+This should help you! :
 https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
