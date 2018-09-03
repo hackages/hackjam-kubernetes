@@ -42,3 +42,9 @@ Minikube :
 https://github.com/kubernetes/minikube#windows
 kubectl : 
 https://kubernetes.io/docs/tasks/tools/install-kubectl/#kubectl-install-curl-2
+
+
+### Docker 
+
+This should help you! : 
+https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
