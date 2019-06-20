@@ -4,16 +4,13 @@ FROM node:latest
 # Create app directory
 WORKDIR /usr/src/app
 
-# Install app dependencies
-COPY package*.json ./
+# Copy server.js
+COPY . .
 
 # Run the command npm install 
 RUN npm install
 
-# Copy server.js
-COPY . .
-
-# Expose the port 8089
+# Expose the port 8088
 EXPOSE 8088
 
 # Run the command npm start
